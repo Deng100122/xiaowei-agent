@@ -26,10 +26,10 @@
       "dest": "/index.html"
     }
   ],
-  "env": {
-    "API_KEY": "@api_key",
-    "PROMPT": "@prompt"
-  },
+"env": {
+  "API_KEY": "@API_KEY",
+  "PROMPT": "@PROMPT"
+},
   "functions": {
     "api/*.js": {
       "memory": 1024,
